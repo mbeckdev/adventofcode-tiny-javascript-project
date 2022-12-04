@@ -16,10 +16,11 @@ This is the least complicated way to get a JavaScript project up and running so 
 
 Next steps to make your life easier
 
-1. download VSCode as an IDE and open this file in there
-2. you can right click the 'index.html' file inside of VSCode and select 'Open with Live Server'
-   1. so that now every time you save, the screen will update in your browser
-3. learn how to add javaScript code in a separate file next to the .html one you made and put this code in the html file:
+1. download VSCode as an IDE (integrated development environment) and open this file in there
+2. you can right click the 'index.html' file inside of VSCode and select 'Open with Live Server' - so now every time you save, the screen will update in your browser
+3. learn how to make separate javaScript files so this html file doesn't get super long.
+   1. add javaScript code in a separate file (name it 'another.js') next to the .html one you made and
+   2. put this code in the html file:
 
 ```
 <script src='another.js'></script>
