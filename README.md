@@ -27,7 +27,7 @@ document.getElementById('day-2-puzzle-2').textContent =
         "Day 2 puzzle 2 answer = wouldn't you like to know ha ha ha";
 ```
 
-3.  put this code in the html file right below the `</script>`:
+4.  put this code in the html file right below the `</script>`:
 
 ```
 <script src='another.js'></script>
