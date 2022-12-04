@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Advent of Code Tiny Javscript Project</title>
+  </head>
+  <body>
+    <h1>The tinyest project for useing JavaScript to do Advent of Code</h1>
+    <h2>Some demo divs to get you started</h2>
+    <div id="demo"></div>
+    <div id="cats-1"></div>
+    <div id="cats-2"></div>
+    <div id="cats-3"></div>
+    <h2>Put your advent of code progress here</h2>
+    <!-- examples done, here's the place for advent of code progress -->
+    <div id="day-1-puzzle-1">d1p1 TBD</div>
+    <div id="day-1-puzzle-2">d1p2 TBD</div>
+    <div id="day-2-puzzle-1">d2p1 TBD</div>
+    <div id="day-2-puzzle-2">d2p2 TBD</div>
+    <script>
+      document.getElementById('demo').textContent = 'Hello JavaScript!';
+
+      let numberOfCats = 7;
+
+      document.getElementById(
+        'cats-1'
+      ).textContent = `number of cats = ${numberOfCats} originally`;
+      numberOfCats++;
+      document.getElementById(
+        'cats-2'
+      ).textContent = `number of cats = ${numberOfCats} after incrementing`;
+
+      function add30Cats() {
+        numberOfCats = numberOfCats + 30;
+        document.getElementById(
+          'cats-3'
+        ).textContent = `number of cats = ${numberOfCats} after adding another 30 cats`;
+      }
+
+      add30Cats();
+
+      // Now add all the fun javascript here for advent of code
+      document.getElementById('day-1-puzzle-1').textContent =
+        'Day 1 puzzle 1 answer = 42';
+      document.getElementById('day-1-puzzle-2').textContent =
+        'Day 1 puzzle 2 answer = 2345243523';
+    </script>
+  </body>
+</html>
