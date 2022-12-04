@@ -20,7 +20,14 @@ Next steps to make your life easier
 2. you can right click the 'index.html' file inside of VSCode and select 'Open with Live Server' - so now every time you save, the screen will update in your browser
 3. learn how to make separate javaScript files so this html file doesn't get super long.
    1. add javaScript code in a separate file (name it 'another.js') next to the .html one you made and
-   2. put this code in the html file:
+   2. inside the another.js file add this:
+
+```
+document.getElementById('day-2-puzzle-2').textContent =
+        "Day 2 puzzle 2 answer = wouldn't you like to know ha ha ha";
+```
+
+3.  put this code in the html file right below the `</script>`:
 
 ```
 <script src='another.js'></script>
