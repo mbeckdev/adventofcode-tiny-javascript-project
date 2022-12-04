@@ -6,7 +6,7 @@ This is the least complicated way to get a JavaScript project up and running so 
 
 1.  make a notepad file and
 2.  copy what's in the index.html file
-3.  save it as index.html somewhere on your computer
+3.  save it as index.html somewhere on your computer (make sure it ends in .html)
 4.  open a file explorer window
 5.  open a browser like Chrome
 6.  drag the index.html file into a Chrome tab
